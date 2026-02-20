@@ -1,20 +1,18 @@
-# 📊 Data Analysis Starter
+# Python Installation & Path Verification Guide
 
-This guide helps you load and inspect data quickly using Python.
+This guide provides step-by-step instructions for installing Python  and ensuring it is correctly configured in your system's PATH.
 
-### 🏃 Quick Start Command
-To run this analysis, copy the code block below and run it in your Python environment. GitHub will provide a **Copy** button in the top-right corner:
+---
 
-```python
-import pandas as pd
+## 🖥️ Windows
 
-# Load a sample dataset
-url = "[https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv)"
-df = pd.read_csv(url)
+### Installation
+1. **Download:** Go to [python.org](https://www.python.org/downloads/windows/) and download 3.11 or later like 3.14 **Windows installer (64-bit)**.
+2. **Run Installer:** Open the `.exe` file.
+3. **⚠️ Critical Step:** On the very first screen, check the box that says **"Add Python 3.x to PATH"**. This ensures you can run Python from the command line.
+4. **Complete:** Click **Install Now**.
 
-# Display the first 5 rows and data types
-print("--- Header Preview ---")
-print(df.head())
-
-print("\n--- Column Info ---")
-print(df.info())
+### Verification
+Open **Command Prompt** or **PowerShell** and type:
+```bash
+python --version
