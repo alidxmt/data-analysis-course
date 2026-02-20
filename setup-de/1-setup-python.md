@@ -1,22 +1,22 @@
-# Python Installation & PATH-Anleitung
+# 🐍 Python Installations- & PATH-Anleitung
 
 Installation und PATH-Konfiguration für Windows, macOS und Linux. Bitte folge den Anweisungen entsprechend deinem Betriebssystem.
 
 ---
 
-## 1. Installationsanleitung
+## 🛠️ 1. Installationsanleitung
 
-### Windows
+### 🪟 Windows
 
-1. **Download:** Besuche [python.org](https://www.python.org/downloads/windows/) und lade den Windows Installer (64-bit) herunter.
+1. **Download:** Besuche [python.org](https://www.python.org/downloads/windows/) und lade den **Windows Installer (64-bit)** herunter.
 2. **Installer ausführen:** Öffne die `.exe`-Datei.
-3. **WICHTIG:** Aktiviere das Kästchen **"Add Python 3.x to PATH"** unten im Installer.
+3. **✨ WICHTIG:** Aktiviere das Kästchen **"Add Python 3.x to PATH"** unten im Installer.
 4. **Installieren:** Klicke auf **Install Now**.
 5. **Überprüfen:** Öffne die Eingabeaufforderung und tippe: `python --version`
 
 ---
 
-### macOS
+### 🍎 macOS
 
 1. **Methode A (Installer):** Lade den macOS 64-bit universal2 Installer von [python.org](https://www.python.org/downloads/macos/) herunter und führe die `.pkg`-Datei aus.
 2. **Methode B (Homebrew):** Wenn Homebrew installiert ist, führe aus: `brew install python`
@@ -24,7 +24,7 @@ Installation und PATH-Konfiguration für Windows, macOS und Linux. Bitte folge d
 
 ---
 
-### Linux (Ubuntu/Debian)
+### 🐧 Linux (Ubuntu/Debian)
 
 1. **Aktualisieren:** Öffne das Terminal und führe aus: `sudo apt update`
 2. **Installieren:** Führe aus: `sudo apt install python3`
@@ -32,11 +32,11 @@ Installation und PATH-Konfiguration für Windows, macOS und Linux. Bitte folge d
 
 ---
 
-## 2. Fehlerbehebung: Hinzufügen zu PATH
+## 🔍 2. Fehlerbehebung: Hinzufügen zu PATH
 
 Wenn der Befehl `python` oder `python3` nicht erkannt wird, folge diesen Schritten, um ihn manuell zu den Umgebungsvariablen deines Systems hinzuzufügen.
 
-### Windows (Manueller PATH)
+### **Windows (Manueller PATH)**
 
 1. Suche im Startmenü nach **"Systemumgebungsvariablen bearbeiten"**.
 2. Klicke auf **Umgebungsvariablen** (unten rechts).
@@ -45,22 +45,10 @@ Wenn der Befehl `python` oder `python3` nicht erkannt wird, folge diesen Schritt
 5. Klicke erneut auf **Neu** und füge den Scripts-Ordner hinzu (z. B. `C:\Python312\Scripts\`).
 6. Klicke auf **OK** und starte alle offenen Terminals neu.
 
-### macOS / Linux (Manueller PATH)
+### **macOS / Linux (Manueller PATH)**
 
 1. Öffne dein Shell-Profil in einem Texteditor:
 
-```bash
-nano ~/.zshrc  # Nutze ~/.bashrc bei älteren Linux/Mac-Versionen
-```
-
-2. Füge diese Zeile hinzu:
-
-```bash
-export PATH="/Pfad/zu/deinem/python:$PATH"
-```
-
-3. Speichern und Terminal neu starten:
-
-```bash
-source ~/.zshrc
-```
+   ```bash
+   nano ~/.zshrc  # (Nutze ~/.bashrc bei älteren Linux/Mac-Versionen)
+   ```
