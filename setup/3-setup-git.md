@@ -1,28 +1,50 @@
-# 1. Navigate to your Documents folder and create the project folder
-mkdir -p ~/Documents/data-analysis && cd ~/Documents/data-analysis
+# Python Data Analysis Environment Setup
 
-# 2. Create a virtual environment
-python -m venv env
+This guide shows how to create a project folder, set up a Python virtual environment called `data`, install Git, and install common Python data analysis libraries.
 
-# 3. Activate the environment
-# Windows:
-if [ "$(uname -s | grep -i cygwin || uname -s | grep -i mingw)" ]; then
-    env\Scripts\activate
-# macOS/Linux:
-else
-    source env/bin/activate
-fi
+---
 
-# 4. Upgrade pip and install tools
-python -m pip install --upgrade pip
-python -m pip install jupyter pandas numpy matplotlib seaborn scipy scikit-learn
+## 1️⃣ Create a Project Folder and Initialize Git
 
-# 5. Launch Jupyter Notebook
-jupyter notebook
+**Windows (PowerShell or CMD):**
+```powershell
+mkdir C:\Users\YourUsername\Projects\DataProject
+cd C:\Users\YourUsername\Projects\DataProject
+# Install Git from https://git-scm.com/downloads if not installed
+# Initialize Git repository
+git init
+```
 
+**macOS / Linux (Terminal):**
+```bash
+mkdir -p ~/Projects/DataProject
+cd ~/Projects/DataProject
+# Install Git from https://git-scm.com/downloads if not installed
+# Initialize Git repository
+git init
+```
 
-# Notes:
-# Windows: Activate with
-#   env\Scripts\activate
-# macOS/Linux: Activate with
-#   source env/bin/activate
+> Replace the paths with your preferred project location.
+
+---
+
+## 2️⃣ Set Up Python Virtual Environment
+
+### Check Python Version
+```bash
+python --version
+# or
+python3 --version
+```
+> Must be Python ≥ 3.7
+
+### Create the Virtual Environment
+```bash
+# Windows
+python -m venv data
+
+# macOS / Linux
+python3 -m venv data
+```
+
+> This creates a folder `data` that contains an isolated Python enviro
