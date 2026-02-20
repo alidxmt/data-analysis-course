@@ -1,3 +1,5 @@
+*Ali Zolfagharian*
+
 # 🐍 Python Installation & PATH Guide
 
 Installation and PATH configuration for Windows, macOS, and Linux. Please follow the instruction based on your operating system.

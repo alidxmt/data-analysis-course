@@ -1,3 +1,5 @@
+*Ali Zolfagharian*
+
 # Installing Visual Studio Code (VS Code)
 
 This guide will help you install Visual Studio Code on Windows, macOS, and Linux.

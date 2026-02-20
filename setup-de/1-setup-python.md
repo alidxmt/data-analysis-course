@@ -1,4 +1,6 @@
-*Ali Zolfagharian – GBZ*
+*Ali Zolfagharian*
+
+
 # 🐍 Python Installations- & PATH-Anleitung
 
 Installation und PATH-Konfiguration für Windows, macOS und Linux. Bitte folge den Anweisungen entsprechend deinem Betriebssystem.

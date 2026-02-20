@@ -1,3 +1,5 @@
+*Ali Zolfagharian*
+
 # Python Data Analysis Umgebung einrichten
 
 Dieser Leitfaden zeigt, wie man einen Projektordner erstellt, eine Python-virtuelle Umgebung namens `data` einrichtet, Git installiert und gängige Python-Bibliotheken für Datenanalyse installiert.

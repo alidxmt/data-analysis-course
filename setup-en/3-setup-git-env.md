@@ -1,3 +1,5 @@
+*Ali Zolfagharian*
+
 # Python Data Analysis Environment Setup
 
 This guide shows how to create a project folder, set up a Python virtual environment called `data`, install Git, and install common Python data analysis libraries.
