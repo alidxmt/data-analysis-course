@@ -54,7 +54,7 @@ Password for 'https://github.com': <PAT hier einfügen>
 
 ```bash
 # Datei mit Editor öffnen
-nano datei.txt
+
 ```
 
 ---
